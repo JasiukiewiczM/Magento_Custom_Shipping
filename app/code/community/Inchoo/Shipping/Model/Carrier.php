@@ -65,7 +65,7 @@ class Inchoo_Shipping_Model_Carrier
 
         $rate->setCarrier($this->_code);
         $rate->setCarrierTitle($this->getConfigData('title'));
-        $rate->setMethod('large');
+        $rate->setMethod('standard');
         $rate->setMethodTitle('Standard delivery');
         $rate->setPrice(1.23);
         $rate->setCost(0);
